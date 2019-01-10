@@ -2,7 +2,7 @@ require('dotenv').load();
 
 exports.config = {
   seleniumAddress: process.env.SERVER,
-  specs: ['test.js'],
+  specs: ['specs/test.js'],
 
   jasmineNodeOpts: {
   defaultTimeoutInterval: 2500000
